@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
-timezone:
+title: Calibrae Blog
+subtitle: The end of Byzantine social networks
+description: Developer blog for the Calibrae project
+author: Loki Verloren
+language: en
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://calibr.ae 
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,3 +78,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+logger: true
+logger_format: default
